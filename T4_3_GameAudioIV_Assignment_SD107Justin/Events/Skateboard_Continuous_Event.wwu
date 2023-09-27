@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2D0CCF62-4AE7-4974-B3E9-CB5DB8C8F767}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Skateboard_Continuous_Event" ID="{2D0CCF62-4AE7-4974-B3E9-CB5DB8C8F767}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Test" ID="{8A0AEB94-1615-4D52-9EFA-7F635E895345}">
+					<ChildrenList>
+						<Action Name="" ID="{83407717-9FBD-41FF-955B-D439E04F7BD1}" ShortID="1038429704">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Skateboard_Surface" ID="{B0564EA8-E03E-4640-8572-71CD37902C02}" WorkUnitID="{A735478E-2D92-4F2B-B971-F8752033A9EE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

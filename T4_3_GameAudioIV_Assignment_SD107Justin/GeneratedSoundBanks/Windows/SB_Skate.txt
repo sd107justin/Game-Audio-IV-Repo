@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3157003241	Test			\Skateboard_Continuous_Event\Test	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2346694343	Skateboard_Surface			\Default Work Unit\Skateboard_Surface	
+
+Switch	ID	Name	Switch Group			Notes
+	3357444255	Skateboard_Surface_Street	Skateboard_Surface			
+	4122311842	Skateboard_Surface_Park	Skateboard_Surface			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	264411975	Skateboard_Skate_Street_01	C:\Users\sd107justin\Desktop\Game Audio IV\Projects\T4_3_GameAudioIV_Assignment_SD107Justin\.cache\Windows\SFX\Skateboard_Assignment_Bounced Files\Skateboard_Skate_Street_DB38D3B4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skateboard_Continuous\Skateboard_Surface\Skateboard_Surface_Street\Skateboard_Skate_Street_01		381640
+	963496060	Skateboard_Skate_Park_01	C:\Users\sd107justin\Desktop\Game Audio IV\Projects\T4_3_GameAudioIV_Assignment_SD107Justin\.cache\Windows\SFX\Skateboard_Assignment_Bounced Files\Skateboard_Skate_Park_970DD886.wem		\Actor-Mixer Hierarchy\Default Work Unit\Skateboard_Continuous\Skateboard_Surface\Skateboard_Surface_Park\Skateboard_Skate_Park_01		349456
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ABCDC875-A238-4813-8D8A-22D0816543CE}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{ABCDC875-A238-4813-8D8A-22D0816543CE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Skateboard_Surface" ID="{C0A61463-8598-45C3-A1FF-817822238E00}">
+					<ChildrenList>
+						<Switch Name="Skateboard_Surface_Park" ID="{7D3C941F-83F6-4F1C-8951-4127DC1D21C6}"/>
+						<Switch Name="Skateboard_Surface_Street" ID="{17F2DF81-81AB-444C-A02D-198061F40482}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

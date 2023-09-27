@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="2346694343" Name="Skateboard_Surface">
+					<Switches>
+						<Switch Id="3357444255" Name="Skateboard_Surface_Street"/>
+						<Switch Id="4122311842" Name="Skateboard_Surface_Park"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2945666061" Type="User" Language="SFX" Hash="{C349E38C-9DAC-367F-2E1B-F93DBE621752}">
+			<ShortName>SB_Skate</ShortName>
+			<Path>SB_Skate.bnk</Path>
+			<Media>
+				<File Id="264411975" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skateboard_Assignment_Bounced Files\Skateboard_Skate_Street.wav</ShortName>
+					<CachePath>SFX/Skateboard_Assignment_Bounced Files/Skateboard_Skate_Street_DB38D3B4.wem</CachePath>
+				</File>
+				<File Id="963496060" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Skateboard_Assignment_Bounced Files\Skateboard_Skate_Park.wav</ShortName>
+					<CachePath>SFX/Skateboard_Assignment_Bounced Files/Skateboard_Skate_Park_970DD886.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3157003241" Name="Test">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2346694343" Id="4122311842"/>
+							<MediaRefs>
+								<MediaRef Id="963496060"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2346694343" Id="3357444255" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="264411975"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2346694343" Name="Skateboard_Surface">
+					<Switches>
+						<Switch Id="3357444255" Name="Skateboard_Surface_Street"/>
+						<Switch Id="4122311842" Name="Skateboard_Surface_Park"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{1F8D7A78-9F13-CDD3-F884-89C31DF14A03}</FileHash>
+</SoundBanksInfo>
